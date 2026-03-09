@@ -45,7 +45,7 @@ export default function Navbar() {
           href="#"
           className="text-xl font-bold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent"
         >
-          MG.
+          MG
         </a>
 
         {/* Desktop nav */}

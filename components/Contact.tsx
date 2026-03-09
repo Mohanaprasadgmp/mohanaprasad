@@ -22,25 +22,14 @@ export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState<Status>('idle');
 
-  const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-
-    if (!formspreeId || formspreeId === 'your_form_id_here') {
-      // Fallback: open mailto if Formspree not configured
-      const subject = encodeURIComponent(`Portfolio contact from ${form.name}`);
-      const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`);
-      window.open(`mailto:${personalInfo.email}?subject=${subject}&body=${body}`);
-      return;
-    }
-
     setStatus('loading');
 
     try {
-      const res = await fetch(`https://formspree.io/f/${formspreeId}`, {
+      const res = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           name: form.name,
           email: form.email,

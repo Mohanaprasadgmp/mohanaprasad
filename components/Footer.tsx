@@ -34,7 +34,7 @@ export default function Footer() {
               href="#"
               className="text-2xl font-bold bg-gradient-to-r from-violet-400 to-cyan-400 bg-clip-text text-transparent"
             >
-              MG.
+              MG
             </a>
             <p className="mt-3 text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-xs">
               Amazon Connect & Gen AI Developer crafting intelligent, cloud-native contact center solutions. Open to exciting opportunities.
@@ -88,8 +88,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-200 dark:border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-slate-500 flex items-center gap-1.5">
-            &copy; {year} {personalInfo.name}. Made with{' '}
-            <HiHeart className="text-red-400" size={14} /> using Next.js & Tailwind CSS.
+            &copy; {year} {personalInfo.name}. All rights reserved. 
           </p>
           <p className="text-xs text-slate-400 dark:text-slate-600">
             Designed & built by Mohanaprasad G

@@ -1,0 +1,206 @@
+export const personalInfo = {
+  name: 'Mohanaprasad G',
+  title: 'Amazon Connect Developer | AWS Certified | Gen AI | Full Stack',
+  email: 'mohanaprasadgmp@gmail.com',
+  phone: '+91-9840639433',
+  location: 'Chennai, India',
+  github: 'https://github.com/mohanaprasad',
+  linkedin: 'https://www.linkedin.com/in/mohanaprasad-g-23926a209',
+  twitter: '',
+  medium: 'https://medium.com/@mohanaprasadgmp',
+  bio: [
+    "Amazon Connect & Generative AI Developer with 7 years of experience designing and delivering intelligent, cloud-native customer interaction systems. Proven expertise in Contact Flow development, Streams API/CCP customization, Lambda integrations, and Contact Lens analytics.",
+    "Hands-on practitioner in Amazon Bedrock, BedrockAgentCore, and Connect AI Assistant for AI-powered automation at scale. Adept at architecting end-to-end Amazon Connect solutions — from dynamic Contact Flows and IVR systems to custom Agent Workspaces and real-time event-driven integrations.",
+    "Complementary AWS development background spanning Lambda, API Gateway, S3, RDS, DynamoDB, CloudWatch, and more, with full-stack delivery using Angular and Node.js. Experienced in leveraging Contact Lens for conversation analytics, sentiment analysis, and compliance monitoring.",
+  ],
+  stats: [
+    { label: 'Years Experience', value: '7+' },
+    { label: 'AWS Certifications', value: '4' },
+    { label: 'Projects Delivered', value: '10+' },
+    { label: 'Companies Served', value: '3' },
+  ],
+  interests: [
+    'Amazon Connect', 'Gen AI', 'Amazon Bedrock', 'Contact Center AI',
+    'Cloud Architecture', 'IVR Systems', 'Conversational AI', 'Full Stack Dev',
+  ],
+  roles: [
+    'Amazon Connect Developer',
+    'Gen AI Developer',
+    'AWS Certified Developer',
+    'Full Stack Developer',
+    'Contact Center Specialist',
+  ],
+};
+
+export const skills = {
+  'Amazon Connect': [
+    { name: 'Amazon Connect', icon: 'TbBrandAws', color: '#FF9900' },
+    { name: 'Contact Flows', icon: 'TbCloudDataConnection', color: '#FF9900' },
+    { name: 'Streams API / CCP', icon: 'TbPlugConnected', color: '#FF9900' },
+    { name: 'Amazon Lex', icon: 'TbBrandAws', color: '#00B0E7' },
+    { name: 'Amazon Bedrock', icon: 'TbServerSpark', color: '#1A9C3E' },
+    { name: 'Contact Lens', icon: 'TbActivity', color: '#FF9900' },
+  ],
+  'AWS Services': [
+    { name: 'Lambda', icon: 'TbLambda', color: '#FF9900' },
+    { name: 'API Gateway', icon: 'TbApiApp', color: '#FF9900' },
+    { name: 'DynamoDB / RDS', icon: 'TbDatabase', color: '#4169E1' },
+    { name: 'S3 / CloudFront', icon: 'TbServer', color: '#569A31' },
+    { name: 'CloudWatch', icon: 'TbCloud', color: '#FF9900' },
+    { name: 'Kinesis / QuickSight', icon: 'TbCloudComputing', color: '#FF9900' },
+  ],
+  Development: [
+    { name: 'Angular', icon: 'SiAngular', color: '#DD0031' },
+    { name: 'Node.js', icon: 'SiNodedotjs', color: '#339933' },
+    { name: 'PostgreSQL', icon: 'SiPostgresql', color: '#4169E1' },
+    { name: 'MySQL', icon: 'SiMysql', color: '#4479A1' },
+    { name: 'Git', icon: 'SiGit', color: '#F05032' },
+    { name: 'Postman', icon: 'SiPostman', color: '#FF6C37' },
+  ],
+};
+
+export const projects = [
+  {
+    id: 1,
+    title: 'Banking AI Agent',
+    description: "Intelligent voice agent leveraging advanced NLU to manage customer banking interactions autonomously. Powered by Amazon Connect and AWS Bedrock, it orchestrates dynamic workflows for hyper-personalized lead generation and contextual cross-sell opportunities.",
+    tags: ['Amazon Connect', 'AWS Bedrock', 'Amazon Lex', 'Contact Flows', 'CCP'],
+    github: '',
+    demo: '',
+    featured: true,
+    gradient: 'from-orange-500 to-amber-600',
+    period: '07/2025 – 11/2025',
+    company: 'Hexaware Technologies',
+  },
+  {
+    id: 2,
+    title: 'OCS – Singapore Ministry of Education',
+    description: "Customized Amazon Connect platform using Contact Flows, Streams API, and Lambda Integrations for intelligent call handling. Implemented real-time transcription, wrap-up automation, and AI-driven enhancements. Built scalable Angular admin modules for seamless contact center operations.",
+    tags: ['Amazon Connect', 'Angular', 'Node.js', 'AWS Bedrock', 'PostgreSQL'],
+    github: '',
+    demo: '',
+    featured: true,
+    gradient: 'from-violet-500 to-purple-600',
+    period: '12/2023 – 04/2025',
+    company: 'Servion Global Solutions',
+  },
+  {
+    id: 3,
+    title: 'Contact Center Analytics Tool',
+    description: "Datalent — a tool to streamline generation, distribution, and analysis of Genesys and Amazon Connect contact center reports. Provides agents with customizable dashboards for real-time insights, with modules for Datasource, Report Builder, and Analysis.",
+    tags: ['Angular', 'Node.js', 'MySQL', 'Lambda', 'Amazon Connect'],
+    github: '',
+    demo: '',
+    featured: false,
+    gradient: 'from-cyan-500 to-blue-600',
+    period: '12/2022 – 10/2023',
+    company: 'Servion Global Solutions',
+  },
+];
+
+export const experience = [
+  {
+    id: 1,
+    role: 'System Analyst',
+    company: 'Hexaware Technologies',
+    location: 'Chennai, India',
+    period: '06/2025 — Present',
+    description: [
+      'Leading Amazon Connect implementations with AI-powered automation using Amazon Bedrock and BedrockAgentCore.',
+      'Architecting intelligent voice agents with NLU capabilities for autonomous banking customer interactions.',
+      'Building custom Agent Workspaces with CCP integration, custom profile, case, and summary sections using Connect APIs.',
+    ],
+    tags: ['Amazon Connect', 'AWS Bedrock', 'BedrockAgentCore', 'Amazon Lex', 'CCP'],
+  },
+  {
+    id: 2,
+    role: 'Senior Software Engineer',
+    company: 'Servion Global Solutions',
+    location: 'Chennai, India',
+    period: '11/2022 — 06/2025',
+    description: [
+      'Developed and customized Amazon Connect using Contact Flows, Streams API, and Lambda Integrations to enable intelligent call handling and agent experiences.',
+      'Implemented real-time transcription, wrap-up automation, and AI-driven enhancements using Amazon Bedrock and Connect AI Assistant.',
+      'Built scalable backend services (Node.js/Lambda) and Angular-based admin modules for the Singapore Ministry of Education contact center platform.',
+    ],
+    tags: ['Amazon Connect', 'Angular', 'Node.js', 'AWS Bedrock', 'PostgreSQL', 'Lambda'],
+  },
+  {
+    id: 3,
+    role: 'Associate',
+    company: 'Cognizant Technology Solutions',
+    location: 'Chennai, India',
+    period: '07/2019 — 11/2022',
+    description: [
+      'Worked on AWS cloud services including Lambda, S3, RDS, IAM, and CloudWatch for enterprise-grade solutions.',
+      'Developed full-stack features using Angular frontend and Node.js backend services.',
+      'Contributed to contact center development and cloud-native application delivery.',
+    ],
+    tags: ['AWS', 'Angular', 'Node.js', 'Lambda', 'S3', 'RDS'],
+  },
+];
+
+export const certifications = [
+  {
+    id: 1,
+    title: 'AWS Certified Developer Associate',
+    issuer: 'Amazon Web Services',
+    code: 'DVA-C07',
+    gradient: 'linear-gradient(135deg, #FF9900, #f59e0b)',
+    badgeColor: '#FF9900',
+  },
+  {
+    id: 2,
+    title: 'Amazon Connect AI Fundamentals',
+    issuer: 'Amazon Web Services',
+    code: 'Certification',
+    gradient: 'linear-gradient(135deg, #3b82f6, #06b6d4)',
+    badgeColor: '#3b82f6',
+  },
+  {
+    id: 3,
+    title: 'Amazon Connect Communications Specialist',
+    issuer: 'Amazon Web Services',
+    code: 'Certification',
+    gradient: 'linear-gradient(135deg, #8b5cf6, #7c3aed)',
+    badgeColor: '#8b5cf6',
+  },
+  {
+    id: 4,
+    title: 'Amazon Connect Developer',
+    issuer: 'Amazon Web Services',
+    code: 'Certification',
+    gradient: 'linear-gradient(135deg, #10b981, #059669)',
+    badgeColor: '#10b981',
+  },
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: 'Building Intelligent Voice Agents with Amazon Connect & Bedrock',
+    excerpt: 'A deep dive into architecting AI-powered voice agents that autonomously handle banking customer interactions using Amazon Connect Contact Flows and AWS Bedrock for real-time NLU.',
+    date: 'January 15, 2026',
+    readTime: '7 min read',
+    tags: ['Amazon Connect', 'AWS Bedrock', 'Gen AI'],
+    url: 'https://medium.com/@mohanaprasadgmp',
+  },
+  {
+    id: 2,
+    title: 'Amazon Connect Streams API: Building Custom Agent Workspaces',
+    excerpt: 'How to use the Streams API and CCP to build fully customized agent experiences — from embedding the softphone to integrating case management and AI-generated summaries.',
+    date: 'December 10, 2025',
+    readTime: '6 min read',
+    tags: ['Amazon Connect', 'Streams API', 'CCP'],
+    url: 'https://medium.com/@mohanaprasadgmp',
+  },
+  {
+    id: 3,
+    title: 'Contact Lens Analytics: Driving Insights from Contact Center Data',
+    excerpt: 'Practical guide to using Amazon Connect Contact Lens for conversation analytics, sentiment analysis, and compliance monitoring to drive operational improvements in contact centers.',
+    date: 'November 5, 2025',
+    readTime: '5 min read',
+    tags: ['Contact Lens', 'Analytics', 'Amazon Connect'],
+    url: 'https://medium.com/@mohanaprasadgmp',
+  },
+];

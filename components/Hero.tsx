@@ -42,7 +42,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Badge */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -50,7 +50,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
           Available for opportunities
-        </motion.div>
+        </motion.div> */}
 
         {/* Name */}
         <motion.h1

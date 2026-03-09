@@ -3,12 +3,12 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import {
-  SiAngular, SiNodedotjs, SiPostgresql, SiMysql, SiGit, SiPostman,
+  SiAngular, SiNodedotjs, SiPostgresql, SiMysql, SiOpenai, SiGithub, SiVercel,
 } from 'react-icons/si';
 import {
   TbBrandAws, TbLambda, TbCloudDataConnection, TbPlugConnected,
   TbDatabase, TbServer, TbServerSpark, TbApiApp, TbActivity,
-  TbCloud, TbCloudComputing,
+  TbCloud, TbCloudComputing, TbShieldLock, TbBrain,
 } from 'react-icons/tb';
 import { skills } from '@/lib/data';
 import clsx from 'clsx';
@@ -25,12 +25,15 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; color?: strin
   TbActivity,
   TbCloud,
   TbCloudComputing,
+  TbShieldLock,
+  TbBrain,
   SiAngular,
   SiNodedotjs,
   SiPostgresql,
   SiMysql,
-  SiGit,
-  SiPostman,
+  SiOpenai,
+  SiGithub,
+  SiVercel,
 };
 
 type SkillCategory = keyof typeof skills;

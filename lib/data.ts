@@ -14,7 +14,7 @@ export const personalInfo = {
   ],
   stats: [
     { label: 'Years Experience', value: '7+' },
-    { label: 'AWS Certifications', value: '4' },
+    { label: 'AWS Certifications', value: '5' },
     { label: 'Projects Delivered', value: '10+' },
     { label: 'Companies Served', value: '3' },
   ],
@@ -239,6 +239,14 @@ export const certifications = [
     code: 'Certification',
     gradient: 'linear-gradient(135deg, #10b981, #059669)',
     badgeColor: '#10b981',
+  },
+   {
+    id: 5,
+    title: 'Amazon Connect Reporting & Analytics',
+    issuer: 'Amazon Web Services',
+    code: 'Certification',
+   gradient: 'linear-gradient(135deg, #f472b6, #ec4899)',
+badgeColor: '#ec4899',
   },
 ];
 

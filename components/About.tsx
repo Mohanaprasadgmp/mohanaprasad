@@ -72,7 +72,7 @@ export default function About() {
             <div className="w-full flex items-center justify-between px-5 py-4 rounded-2xl bg-gradient-to-r from-violet-500/10 to-cyan-500/10 border border-violet-500/20">
               <div className="flex items-center gap-2 text-slate-700 dark:text-slate-300 text-sm font-medium">
                 <TbBrandAws size={18} className="text-orange-500" />
-                4 AWS Certifications
+                5 AWS Certifications
               </div>
               <span className="text-xs text-violet-600 dark:text-violet-400 font-semibold">Verified</span>
             </div>
